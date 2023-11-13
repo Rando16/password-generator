@@ -1,0 +1,40 @@
+#chessboard {
+  margin: 100px 0px 0px 100px;
+  display:grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+}
+
+.white {
+  background-color: #eee;
+}
+
+.black {
+  background-color: #333;
+}
+
+
+.piece {
+  position: relative;
+}
+
+.square {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.square svg {
+  height: 30px;
+}
+
+
+.blackpiece {
+  fill:blue;
+}
+
+.whitepiece {
+  fill:yellow;
+
+}
